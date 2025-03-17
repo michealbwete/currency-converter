@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(black, white);
+
+}
+.wrapper{
+    width: 380px;
+    height: 360px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border: 2px solid rgb(4, 199, 14);
+    border-radius: 30px;
+    padding: 23px;
+}
+header{
+    font-size: 1.5em;
+    align-content: center;
+    margin-left: 27px;
+    padding: 8px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: capitalize,italic;
+}
+p{
+    font-size: 1.2em;
+    color: white;
+    margin-top: 15px;
+}
+input{
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 4px;
+    outline: none;
+    font-size: 1.2em;
+    color: black;
+}
+::placeholder{
+    font-size: 1.1em;
+    color: black;
+}
+.dropdown{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+.select-box{
+    width:100px;
+    display: flex;
+    background: #fff;
+}
+select{
+    background: transparent;
+    margin-left: 10px;
+    display: flex;
+    border: none;
+    outline: none;
+}
+img{
+    border-radius: 10px;
+    display: flex;
+    width: 30px;
+}
+.from{
+    margin-left: 20px;
+}
+.to{ 
+    margin: -100px auto auto 200px;
+}
+.exchange-rate{
+    margin: 20px auto auto 30px;
+    color: white;
+    padding: 5px;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3em;
+    background: repeating-radial-gradient(green,rgb(77, 248, 120));
+}
+.icon{
+    display: flex;
+    margin-top: 40px;
+  margin-left: 30px;
+  color: white;
+  cursor: pointer;
+}
